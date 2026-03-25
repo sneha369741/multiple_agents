@@ -1,0 +1,5 @@
+INFO Service started
+WARN High memory usage detected
+ERROR Database connection failed
+INFO Request processed
+ERROR p99 latency spike detected

@@ -1,0 +1,48 @@
+# 🔐 Environment variables
+.env
+.env.*
+
+# 🐍 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🧪 Virtual environments (IMPORTANT)
+venv/
+.venv/
+env/
+ENV/
+
+# 📦 Build / packaging
+build/
+dist/
+*.egg-info/
+
+# 🐳 Docker
+*.log
+
+# 📊 Logs
+logs/
+*.log
+
+# 🧑‍💻 IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🖥 OS files
+.DS_Store
+Thumbs.db
+
+# 🧾 Temporary files
+*.tmp
+*.bak
+
+# 🔑 Secrets
+*.pem
+*.key
+
+# 📁 Zip files
+*.zip
