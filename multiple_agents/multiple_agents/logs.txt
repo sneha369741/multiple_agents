@@ -1,0 +1,40 @@
+2026-03-25 10:00:01 | INFO  | auth-service       | Service started successfully
+2026-03-25 10:00:05 | INFO  | db-service         | Database connection established
+2026-03-25 10:00:10 | INFO  | api-gateway        | Incoming request /login
+2026-03-25 10:00:12 | INFO  | auth-service       | User authentication successful
+
+2026-03-25 10:01:02 | WARN  | db-service         | Connection pool nearing limit
+2026-03-25 10:01:10 | INFO  | api-gateway        | Incoming request /getUserData
+
+2026-03-25 10:01:15 | ERROR | db-service         | Database connection timeout
+2026-03-25 10:01:16 | ERROR | auth-service       | Failed to fetch user data from DB
+2026-03-25 10:01:18 | WARN  | api-gateway        | Response delayed (latency > 1000ms)
+
+2026-03-25 10:02:01 | INFO  | scheduler-service  | Running background job: data-sync
+2026-03-25 10:02:10 | ERROR | scheduler-service  | Data sync failed due to network issue
+
+2026-03-25 10:02:20 | INFO  | api-gateway        | Incoming request /checkout
+2026-03-25 10:02:22 | ERROR | payment-service    | Payment API failed: 502 Bad Gateway
+2026-03-25 10:02:23 | WARN  | api-gateway        | Retrying request /checkout
+
+2026-03-25 10:02:40 | INFO  | api-gateway        | Incoming request /checkout
+2026-03-25 10:02:42 | ERROR | payment-service    | Payment API timeout
+2026-03-25 10:02:45 | ERROR | api-gateway        | Checkout failed after retries
+
+2026-03-25 10:03:01 | INFO  | monitoring-service | CPU usage at 88%
+2026-03-25 10:03:05 | WARN  | monitoring-service | Memory usage high (85%)
+
+2026-03-25 10:03:10 | ERROR | monitoring-service | CPU spike detected (95%)
+2026-03-25 10:03:15 | ERROR | api-gateway        | Request failed due to timeout
+
+2026-03-25 10:03:30 | INFO  | deploy-service     | New version v2.1 deployed
+2026-03-25 10:03:40 | ERROR | auth-service       | Increased login failures detected
+
+2026-03-25 10:04:00 | ERROR | db-service         | Too many connections
+2026-03-25 10:04:05 | ERROR | auth-service       | Authentication service degraded
+
+2026-03-25 10:04:20 | INFO  | monitoring-service | CPU usage at 97%
+2026-03-25 10:04:25 | ERROR | monitoring-service | Memory leak suspected
+
+2026-03-25 10:04:40 | CRITICAL | api-gateway     | Service unavailable (503)
+2026-03-25 10:04:45 | CRITICAL | system          | Major outage detected

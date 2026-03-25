@@ -1,0 +1,80 @@
+2026-03-25 10:00:13 | INFO      | payment-service      | Generic event [2964]
+2026-03-25 10:00:25 | INFO      | api-gateway          | Incoming request /login
+2026-03-25 10:00:35 | INFO      | monitoring-service   | CPU usage at 45%
+2026-03-25 10:00:47 | ERROR     | auth-service         | Authentication service degraded
+2026-03-25 10:00:59 | ERROR     | auth-service         | Failed to fetch user data from DB
+2026-03-25 10:01:02 | INFO      | api-gateway          | Incoming request /checkout
+2026-03-25 10:01:12 | INFO      | auth-service         | Service started successfully
+2026-03-25 10:01:22 | ERROR     | payment-service      | Payment API timeout after 30s
+2026-03-25 10:01:24 | ERROR     | payment-service      | Payment API timeout after 30s
+2026-03-25 10:01:28 | INFO      | scheduler-service    | Generic event [7757]
+2026-03-25 10:01:40 | ERROR     | scheduler-service    | Data sync failed due to network issue
+2026-03-25 10:01:50 | INFO      | auth-service         | User authentication successful
+2026-03-25 10:01:52 | INFO      | cache-service        | Cache hit ratio: 92%
+2026-03-25 10:02:00 | ERROR     | cache-service        | Generic event [5048]
+2026-03-25 10:02:09 | WARN      | cache-service        | Generic event [1242]
+2026-03-25 10:02:14 | WARN      | db-service           | Connection pool nearing limit (80%)
+2026-03-25 10:02:22 | INFO      | db-service           | Database connection established
+2026-03-25 10:02:32 | INFO      | cache-service        | Cache hit ratio: 92%
+2026-03-25 10:02:39 | WARN      | api-gateway          | Response delayed (latency > 1000ms)
+2026-03-25 10:02:47 | WARN      | api-gateway          | Response delayed (latency > 1000ms)
+2026-03-25 10:03:01 | INFO      | monitoring-service   | CPU usage at 45%
+2026-03-25 10:03:14 | WARN      | auth-service         | Multiple failed login attempts from IP 192.168.1.x
+2026-03-25 10:03:25 | ERROR     | payment-service      | Generic event [2694]
+2026-03-25 10:03:36 | WARN      | api-gateway          | Response delayed (latency > 1000ms)
+2026-03-25 10:03:47 | ERROR     | cache-service        | Generic event [5200]
+2026-03-25 10:03:57 | INFO      | api-gateway          | Incoming request /login
+2026-03-25 10:04:08 | WARN      | monitoring-service   | Memory usage high (85%)
+2026-03-25 10:04:15 | ERROR     | auth-service         | Failed to fetch user data from DB
+2026-03-25 10:04:21 | INFO      | api-gateway          | Incoming request /checkout
+2026-03-25 10:04:25 | WARN      | cache-service        | Cache eviction rate increasing
+2026-03-25 10:04:28 | INFO      | api-gateway          | Incoming request /checkout
+2026-03-25 10:04:35 | INFO      | cache-service        | Cache hit ratio: 92%
+2026-03-25 10:04:50 | INFO      | payment-service      | Generic event [3891]
+2026-03-25 10:04:52 | INFO      | auth-service         | Service started successfully
+2026-03-25 10:05:04 | CRITICAL  | system               | Major outage detected
+2026-03-25 10:05:15 | WARN      | auth-service         | Multiple failed login attempts from IP 192.168.1.x
+2026-03-25 10:05:24 | INFO      | api-gateway          | Generic event [2852]
+2026-03-25 10:05:32 | INFO      | auth-service         | User authentication successful
+2026-03-25 10:05:33 | ERROR     | monitoring-service   | Generic event [1815]
+2026-03-25 10:05:37 | INFO      | api-gateway          | Incoming request /checkout
+2026-03-25 10:05:52 | WARN      | db-service           | Generic event [3880]
+2026-03-25 10:06:06 | INFO      | db-service           | Database connection established
+2026-03-25 10:06:09 | INFO      | deploy-service       | New version v2.1 deployed
+2026-03-25 10:06:10 | WARN      | auth-service         | Multiple failed login attempts from IP 192.168.1.x
+2026-03-25 10:06:20 | WARN      | monitoring-service   | Memory usage high (85%)
+2026-03-25 10:06:35 | INFO      | api-gateway          | Incoming request /getUserData
+2026-03-25 10:06:43 | CRITICAL  | db-service           | Primary DB unreachable — failover triggered
+2026-03-25 10:06:50 | CRITICAL  | db-service           | Primary DB unreachable — failover triggered
+2026-03-25 10:06:55 | CRITICAL  | payment-service      | All payment gateways offline
+2026-03-25 10:06:58 | ERROR     | auth-service         | Authentication service degraded
+2026-03-25 10:07:06 | WARN      | api-gateway          | Response delayed (latency > 1000ms)
+2026-03-25 10:07:16 | INFO      | deploy-service       | Generic event [8990]
+2026-03-25 10:07:25 | INFO      | deploy-service       | New version v2.1 deployed
+2026-03-25 10:07:37 | INFO      | auth-service         | Generic event [9217]
+2026-03-25 10:07:48 | CRITICAL  | api-gateway          | Service unavailable (503)
+2026-03-25 10:07:57 | INFO      | monitoring-service   | CPU usage at 45%
+2026-03-25 10:07:58 | CRITICAL  | system               | Major outage detected
+2026-03-25 10:08:01 | WARN      | db-service           | Generic event [1479]
+2026-03-25 10:08:04 | INFO      | api-gateway          | Incoming request /login
+2026-03-25 10:08:17 | WARN      | auth-service         | Multiple failed login attempts from IP 192.168.1.x
+2026-03-25 10:08:27 | INFO      | db-service           | Generic event [3542]
+2026-03-25 10:08:32 | ERROR     | auth-service         | Increased login failures detected
+2026-03-25 10:08:40 | INFO      | cache-service        | Cache hit ratio: 92%
+2026-03-25 10:08:41 | ERROR     | auth-service         | Authentication service degraded
+2026-03-25 10:08:56 | ERROR     | db-service           | Too many connections (limit: 100)
+2026-03-25 10:09:01 | CRITICAL  | api-gateway          | Service unavailable (503)
+2026-03-25 10:09:16 | INFO      | cache-service        | Cache hit ratio: 92%
+2026-03-25 10:09:20 | CRITICAL  | payment-service      | All payment gateways offline
+2026-03-25 10:09:34 | WARN      | auth-service         | Multiple failed login attempts from IP 192.168.1.x
+2026-03-25 10:09:44 | ERROR     | auth-service         | Increased login failures detected
+2026-03-25 10:09:59 | INFO      | api-gateway          | Incoming request /getUserData
+2026-03-25 10:10:10 | ERROR     | db-service           | Database connection timeout
+2026-03-25 10:10:14 | ERROR     | scheduler-service    | Data sync failed due to network issue
+2026-03-25 10:10:19 | INFO      | cache-service        | Cache hit ratio: 92%
+2026-03-25 10:10:21 | INFO      | cache-service        | Cache hit ratio: 92%
+2026-03-25 10:10:26 | WARN      | db-service           | Generic event [2392]
+2026-03-25 10:10:41 | CRITICAL  | api-gateway          | Service unavailable (503)
+2026-03-25 10:10:45 | INFO      | db-service           | Database connection established
+2026-03-25 10:10:51 | INFO      | api-gateway          | Incoming request /getUserData
+2026-03-25 10:11:04 | INFO      | api-gateway          | Incoming request /login
